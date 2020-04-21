@@ -1,5 +1,5 @@
 layout: sidebar
-style: light
+style: dark
 
 plugins:
   - jekyll-octicons
@@ -43,7 +43,7 @@ social_media:
   twitter: ArturJssln
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+  website: https://arturjssln.github.io
   # youtube: your_username
 
 topics:

@@ -58,7 +58,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter "Arturjssln"
+  username               : &twitter "AJesslen"
 facebook:
   username               :
   app_id                 :
@@ -84,11 +84,11 @@ author:
   name             : "Artur Jesslen"
   avatar           : "Artur_epfl.jpg"
   bio              : "PhD student @ Uni Freiburg | Generative vision | 3D Understanding"
-  location         : "Lausanne, Switzerland"
+  location         : "Freiburg im Breisgau, Germany"
   employer         :
   pubmed           : 
   googlescholar    : 
-  email            : "artur.jesslen@epfl.ch"
+  email            : "jesslen@cs.uni-freiburg.de"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -110,7 +110,7 @@ author:
   stackoverflow    : 
   steam            :
   tumblr           :
-  twitter          : "Arturjssln"
+  twitter          : "AJesslen"
   vine             :
   weibo            :
   xing             :

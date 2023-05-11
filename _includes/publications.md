@@ -26,12 +26,12 @@
 
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/teaser_animal3D.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/teaser_animal3d.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">In review</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="#">Robust object classification via render‐and‐compare with 3d‐aware deep networks</a></div>
-    <div class="author">Animal3D: A Comprehensive Dataset of 3D Animal Pose and Shape</div>
+    <div class="title"><a href="#">Animal3D: A Comprehensive Dataset of 3D Animal Pose and Shape</a></div>
+    <div class="author">Jiacong Xu, Yi Zhang, Jiawei Peng, Wufei Ma, Artur Jesslen,Pengliang Ji, Qixin Hu, Jiehua Zhang, Qihao Liu, Jiahao Wang, Wei Ji, Chen Wang, Xiaoding Yuan, Prakhar Kaushik, Guofeng Zhang, Jie Liu, Yushan Xie, Yawen Cui, Alan Yuille and Adam Kortylewski</div>
     <div class="periodical"><em>In review <strong></strong>, 2023.</em></div>
     <!--
     <div class="links">

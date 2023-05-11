@@ -5,13 +5,14 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/teaser_example.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">CVPR</abbr>
+    <img src="assets/img/teaser_nemoCls.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">In review</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/pdf/2002.10211.pdf">Mnemonics Training: Multi-Class Incremental Learning without Forgetting</a></div>
-    <div class="author"><strong>Yaoyao Liu</strong>, Yuting Su, An-An Liu, Bernt Schiele, Qianru Sun</div>
-    <div class="periodical"><em>IEEE/CVF Conference on Computer Vision and Pattern Recognition <strong>(CVPR)</strong>, 2020.</em></div>
+    <div class="title"><a href="#">Robust object classification via render‐and‐compare with 3d‐aware deep networks</a></div>
+    <div class="author"><strong>Artur Jesslen</strong>, Guofeng Zhang, Angtian Wang, Alan Yuille, and Adam Kortylewski</div>
+    <div class="periodical"><em>In review <strong></strong>, 2023.</em></div>
+    <!--
     <div class="links">
       <a href="https://arxiv.org/pdf/2002.10211.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/yaoyao-liu/mnemonics" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
@@ -19,6 +20,49 @@
       <a href="https://dblp.uni-trier.de/rec/conf/cvpr/LiuSLSS20.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
       <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
     </div>
+    -->
+  </div>
+</div>
+
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/teaser_animal3D.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">In review</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="#">Robust object classification via render‐and‐compare with 3d‐aware deep networks</a></div>
+    <div class="author">Animal3D: A Comprehensive Dataset of 3D Animal Pose and Shape</div>
+    <div class="periodical"><em>In review <strong></strong>, 2023.</em></div>
+    <!--
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2002.10211.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/yaoyao-liu/mnemonics" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://class-il.mpi-inf.mpg.de/mnemonics/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      <a href="https://dblp.uni-trier.de/rec/conf/cvpr/LiuSLSS20.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+    </div>
+    -->
+  </div>
+</div>
+
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/teaser_ood.jpg" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">In review</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="#">OOD‐CV‐v2: An extended Benchmark for Robustness to Out‐of‐Distribution Shifts of Individual Nuisances in Natural Images</a></div>
+    <div class="author">Bingchen Zhao, Jiahao Wang, Wufei Ma, <strong>Artur Jesslen</strong>, Siwei Yang, Shaozuo Yu, Oliver Zendel, Christian Theobalt, Alan Yuille and Adam Kortylewski</div>
+    <div class="periodical"><em>In review <strong></strong>, 2023.</em></div>
+    <!--
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2002.10211.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/yaoyao-liu/mnemonics" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://class-il.mpi-inf.mpg.de/mnemonics/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      <a href="https://dblp.uni-trier.de/rec/conf/cvpr/LiuSLSS20.html?view=bibtex" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+    </div>
+    -->
   </div>
 </div>
 </li>

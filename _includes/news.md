@@ -6,15 +6,15 @@
 		  <strong>[May, 2023]</strong> 
 		</td>
 		<td style="border: none;">
-			I will attend the <a href="https://gemss.ai/">Generative Modeling Summer School (GeMSS)</a> in Copenhagen, June 26th to 30th.
-		</td>	
-	</tr>		
+			I am attending the <a href="https://gemss.ai/">Generative Modeling Summer School (GeMSS)</a> in Copenhagen, June 26th to 30th.
+		</td>
+	</tr>
 	<tr>
 		<td style="border: none; vertical-align:top">
 		  <strong>[Mar, 2023]</strong> 
 		</td>
 		<td style="border: none;">
-			I will be part of the organization of the <a href="https://www.ood-cv.org/">2nd Workshop on Out Of Distribution Generalization in Computer Vision</a> at <strong>ICCV 2023</strong>.
+			I am glad to be part of the organization of the <a href="https://www.ood-cv.org/">2nd Workshop on Out Of Distribution Generalization in Computer Vision</a> at <strong>ICCV 2023</strong>.
 		</td>	
 	</tr>	
   <tr>
@@ -22,7 +22,7 @@
 		  <strong>[Jul, 2022]</strong> 
 		</td>
 		<td style="border: none;">
-			I will start a Ph.D. at the University of Freiburg as part of the <a href="https://gvrl.mpi-inf.mpg.de">Generative Vision and Robust Learning group</a> and the 
+			I am excited to start a Ph.D. at the University of Freiburg as part of the <a href="https://gvrl.mpi-inf.mpg.de">Generative Vision and Robust Learning group</a> and the 
       <a href="https://lmb.informatik.uni-freiburg.de">Computer Vision group</a>.
 		</td>	
 	</tr>	

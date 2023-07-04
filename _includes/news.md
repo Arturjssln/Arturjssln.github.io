@@ -3,6 +3,14 @@
 <table style="width:100%;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;"><tbody>
 	<tr>
 		<td style="border: none; vertical-align:top">
+		  <strong>[July, 2023]</strong> 
+		</td>
+		<td style="border: none;">
+			ICCV 2023's <a href="https://www.ood-cv.org/">OOD-CV</a> challenge released.
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; vertical-align:top">
 		  <strong>[May, 2023]</strong> 
 		</td>
 		<td style="border: none;">

@@ -14,5 +14,5 @@
 <h4 style="margin:0 10px 0;">Journal Reviewers</h4>
 <h5 style="margin:0 40px 0;"> 2023 </h5>
 <ul style="margin:0 0 20px;">
-  <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a>- 2 papers</li>
+  <li><a href="https://www.springer.com/journal/11263"><autocolor>International Journal of Computer Vision (IJCV)</autocolor></a>- 3 papers</li>
 </ul>

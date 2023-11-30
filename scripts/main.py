@@ -3,6 +3,7 @@ import os
 from bs4 import BeautifulSoup
 import datetime
 import re
+
 from openai import OpenAI
 client = OpenAI()
 
@@ -201,8 +202,7 @@ for mensa in dict_mensa_essen.keys():
         html_text += f"""
         <li>
             {essen} ({date}) <br>
-            <img width="45%" src="assets/img/artur.jpeg" alt="Local Image">
-            <!-- <img width="45%" src="assets/img/mensa_{todays_date}_{mensa}_{i}.jpg" alt="Local Image"> -->
+            <img width="45%" src="assets/img/mensa_{todays_date}_{mensa}_{i}.jpg" alt="Local Image">
             <br>
         </li>
         """
@@ -231,19 +231,26 @@ html_encoded = html_text.replace("ä", "&auml;").replace("ö", "&ouml;").replace
 with open(PATH_HTML, 'w') as file:
     file.write(html_encoded)
 
-# for mensa in dict_mensa_essen.keys():
-#     for i, essen in enumerate(dict_mensa_essen[mensa]):
-#         response = client.images.generate(
-#             model="dall-e-2",
-#             prompt=f"A plate containing the following ingredients written in german: {essen}",
-#             size="1024x1024",
-#             quality="standard",
-#             n=1,
-#         )
-#         image_url = response.data[0].url
+from googletrans import Translator, constants
+from pprint import pprint
+translator = Translator()
 
-#         # download the image and save it to the current directory
-#         img_data = requests.get(image_url).content
-#         with open(f'assets/img/mensa_{todays_date}_{mensa}_{i}.jpg', 'wb') as handler:
-#             handler.write(img_data)
+for mensa in dict_mensa_essen.keys():
+    for i, essen in enumerate(dict_mensa_essen[mensa]):
+        food = translator.translate(essen, src="de", dest="en").text
+        print(essen)
+        print(f"A meal containing the following ingredients: {food}")
+        response = client.images.generate(
+            model="dall-e-3",
+            prompt=f"A meal containing the following ingredients: {food}",
+            size="1024x1024",
+            quality="standard",
+            n=1,
+        )
+        image_url = response.data[0].url
+
+        # download the image and save it to the current directory
+        img_data = requests.get(image_url).content
+        with open(f'assets/img/mensa_{todays_date}_{mensa}_{i}.jpg', 'wb') as handler:
+            handler.write(img_data)
 

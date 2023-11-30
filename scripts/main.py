@@ -231,8 +231,7 @@ html_encoded = html_text.replace("ä", "&auml;").replace("ö", "&ouml;").replace
 with open(PATH_HTML, 'w') as file:
     file.write(html_encoded)
 
-from googletrans import Translator, constants
-from pprint import pprint
+from googletrans import Translator
 translator = Translator()
 
 for mensa in dict_mensa_essen.keys():

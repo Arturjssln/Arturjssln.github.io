@@ -49,7 +49,7 @@ german_month_names = {
     'Sep': 9,
     'Okt': 10,
     'Nov': 11,
-    'Dez': 12
+    'Dez': 12,
 }
 
 def get_todays_year():
@@ -119,11 +119,11 @@ tab_par_element = soup.select('.tabPar')[0] #.first()
 rows = tab_par_element.find_all('tr')
 # example "27. Nov. – 1. Dez."
 # remove spaces at the end of the string
-monday_date_number, monday_date_month, _, friday_date_number, friday_date_month = tab_par_element.find_all('h4')[0].get_text().strip().replace('.', '').split(' ')
+monday_date_number, _, friday_date_number, friday_date_month = tab_par_element.find_all('h4')[0].get_text().strip().replace('.', '').split(' ')
 
 monday_date_number = int(monday_date_number)
 friday_date_number = int(friday_date_number)
-monday_date_month = german_month_names[monday_date_month]
+monday_date_month = german_month_names[friday_date_month]
 friday_date_number = german_month_names[friday_date_month]
 
 fraunhofer_ipm_essen = []

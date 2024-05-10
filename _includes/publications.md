@@ -44,7 +44,9 @@
       <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
     </div>
     -->
+    </div>
   </div>
+  
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/teaser_animal3d.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">ICCV 2023</abbr>

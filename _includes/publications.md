@@ -29,7 +29,7 @@
 <div class="pub-row">
 <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/teaser_unsup_learning.png" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">ICCV 2023</abbr>
+    <abbr class="badge">CVPR 2024</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="#">Unsupervised Learning of Category-Level 3D Pose from Object-Centric Videos</a></div>
@@ -46,7 +46,7 @@
     -->
     </div>
   </div>
-  
+
   <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/teaser_animal3d.png" class="teaser img-fluid z-depth-1">

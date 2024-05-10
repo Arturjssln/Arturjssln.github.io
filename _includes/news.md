@@ -3,6 +3,14 @@
 <table style="width:100%;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;"><tbody>
 	<tr>
 		<td style="border: none; vertical-align:top">
+		  <strong>[February, 2024]</strong> 
+		</td>
+		<td style="border: none;">
+			One paper accepted to CVPR 2024!
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; vertical-align:top">
 		  <strong>[July, 2023]</strong> 
 		</td>
 		<td style="border: none;">

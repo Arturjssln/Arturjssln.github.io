@@ -11,6 +11,14 @@
 	</tr>
 	<tr>
 		<td style="border: none; vertical-align:top">
+		  <strong>[Apr, 2024]</strong> 
+		</td>
+		<td style="border: none;">
+			I am glad to co-host the <a href="https://www.ood-cv.org/">3rd Workshop for Out-of-Distribution Generalization in Computer Vision Foundation Models</a> at <strong>ECCV 2024</strong>.
+		</td>	
+	</tr>	
+	<tr>
+		<td style="border: none; vertical-align:top">
 		  <strong>[July, 2023]</strong> 
 		</td>
 		<td style="border: none;">
@@ -38,7 +46,7 @@
 		  <strong>[Mar, 2023]</strong> 
 		</td>
 		<td style="border: none;">
-			I am glad to be part of the organization of the <a href="https://www.ood-cv.org/">2nd Workshop on Out Of Distribution Generalization in Computer Vision</a> at <strong>ICCV 2023</strong>.
+			I am glad to co-host the <a href="https://www.ood-cv.org/">2nd Workshop on Out Of Distribution Generalization in Computer Vision</a> at <strong>ICCV 2023</strong>.
 		</td>	
 	</tr>	
   <tr>

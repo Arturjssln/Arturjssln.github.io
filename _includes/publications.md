@@ -55,7 +55,7 @@
     <div class="author">Jiacong Xu, Yi Zhang, Jiawei Peng, Wufei Ma, <strong>Artur Jesslen</strong>, Pengliang Ji, Qixin Hu, Jiehua Zhang, Qihao Liu, Jiahao Wang, Wei Ji, Chen Wang, Xiaoding Yuan, Prakhar Kaushik, Guofeng Zhang, Jie Liu, Yushan Xie, Yawen Cui, Alan Yuille and Adam Kortylewski</div>
     <div class="periodical"><em><strong>ICCV</strong>, 2023.</em></div>
     <div class="links">
-      <a href="https://arxiv.org/abs/2308.11737" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://arxiv.org/pdf/2308.11737" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://xujiacong.github.io/Animal3D/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
       <a href="https://xujiacong.github.io/Animal3D/resources/bibtex.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>

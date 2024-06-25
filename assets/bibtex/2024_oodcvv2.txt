@@ -1,0 +1,8 @@
+ @inproceedings{zhao22oodcv,
+	author  = {Bingchen Zhao and Shaozuo Yu and Wufei Ma and Mingxin Yu and Shenxiao Mei and Angtian Wang and Ju He 
+                  and Alan Yuille and Adam Kortylewski},
+	title   = {OOD-CV: A Benchmark for Robustness to Out-of-Distribution Shifts of Individual Nuisances in Natural Images},
+	booktitle = {ECCV},
+	year    = {2022}
+}			
+	

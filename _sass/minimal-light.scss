@@ -12,7 +12,10 @@ body {
 
 .pub-row {
   display: flex; 
-  align-items: center;}
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 
 .social-icons a{
   display:inline-block;
@@ -308,7 +311,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:960px;
+  width:90%;
   margin:0 auto;
 }
 
@@ -444,10 +447,11 @@ header ul a strong {
 }
 
 section {
-  width:650px;
-  float:right;
-  padding-top:4.0em;
-  padding-bottom:50px;
+  width: auto;
+  float: left;
+  padding-top: 4.0em;
+  padding-bottom: 50px;
+  padding-left: 300px
 }
 
 small {

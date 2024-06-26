@@ -1,12 +1,37 @@
 ## News
 
 <table style="width:100%;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;"><tbody>
+	
+	<!--<tr>
+		<td style="border: none; vertical-align:top">
+		  <strong>[Jul, 2024]</strong> 
+		</td>
+		<td style="border: none;">
+			Two papers accepted to <strong>ECCV 2024</strong>!
+		</td>
+	</tr>-->
+	<!--<tr>
+		<td style="border: none; vertical-align:top">
+		  <strong>[Sep, 2024]</strong> 
+		</td>
+		<td style="border: none;">
+			Two papers accepted to <strong>NeurIPS 2024!
+		</td>
+	</tr>-->
+	<!--<tr>
+		<td style="border: none; vertical-align:top">
+		  <strong>[Jul, 2024]</strong> 
+		</td>
+		<td style="border: none;">
+			One paper accepted to <strong>IJCV</strong>!
+		</td>
+	</tr>-->
 	<tr>
 		<td style="border: none; vertical-align:top">
 		  <strong>[Feb, 2024]</strong> 
 		</td>
 		<td style="border: none;">
-			One paper accepted to CVPR 2024!
+			One paper accepted to <strong>CVPR 2024</strong>!
 		</td>
 	</tr>
 	<tr>
@@ -19,15 +44,15 @@
 	</tr>	
 	<tr>
 		<td style="border: none; vertical-align:top">
-		  <strong>[July, 2023]</strong> 
+		  <strong>[Jul, 2023]</strong> 
 		</td>
 		<td style="border: none;">
-			One paper accepted to ICCV 2023!
+			One paper accepted to <strong>ICCV 2023</strong>!
 		</td>
 	</tr>
 	<tr>
 		<td style="border: none; vertical-align:top">
-		  <strong>[July, 2023]</strong> 
+		  <strong>[Jul, 2023]</strong> 
 		</td>
 		<td style="border: none;">
 			ICCV 2023's <a href="https://www.ood-cv.org/">OOD-CV</a> challenge released.

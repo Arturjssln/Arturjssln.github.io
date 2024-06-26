@@ -10,7 +10,8 @@ teaser_video_description: TODO
 img_carousel1: assets/img/novum/fig1.png
 description_carousel1: Figure 1. Schematic overview of how NOVUM is trained. The model consists of a shared backbone (yellow) and one neural object volume for each object class (grey), which are represented as 3D Gaussians on a cuboid shape. During training, the backbone first computes feature maps of the training images. Given the class label and the 3D object pose, the backbone is trained in a contrastive manner using four types of losses. (I) To make features of the same Gaussian similar across instances (green), while at the same time making the features distinct (red) from (II) features of Gaussians from the same object, (III) background features, and (IV) features of Gaussians from other objects.
 img_carousel2: assets/img/novum/fig2.png
-description_carousel2: Figure 2. 
+description_carousel2: Figure 2. Overview of the classification inference pipeline. The NOVUM architecture is composed of a backbone and a set of neural object volumes represented as 3D Gaussians on a cuboid shape (green box). The associated feature of each 3D Gaussian
+is represented with different colors. During inference, an image is first processed by the backbone into a feature map F. The object class is predicted by independently matching the Gaussian features to the feature map (blue box). We color-code the detected Gaussians to highlight the interpretability of our method. Brightness shows the prediction confidence. Note that the model is only confident with the correct class even though the bus is an out-of-distribution sample. The 3D object pose can also be inferred via inverse rendering of the neural object volume.
 img_carousel3: assets/img/novum/fig3.png
 description_carousel3: Figure 3. 
 img_carousel4: assets/img/novum/fig4.png

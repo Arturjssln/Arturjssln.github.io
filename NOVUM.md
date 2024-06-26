@@ -8,13 +8,15 @@ abstract: Discriminative models for object classification typically learn image-
 teaser_video: assets/videos/banner_video.mp4
 teaser_video_description: TODO
 img_carousel1: assets/img/novum/fig1.png
-description_carousel1: TODO
+description_carousel1: Figure 1. Schematic overview of how NOVUM is trained. The model consists of a shared backbone (yellow) and one neural object volume for each object class (grey), which are represented as 3D Gaussians on a cuboid shape. During training, the backbone first computes feature maps of the training images. Given the class label and the 3D object pose, the backbone is trained in a contrastive manner using four types of losses. (I) To make features of the same Gaussian similar across instances (green), while at the same time making the features distinct (red) from (II) features of Gaussians from the same object, (III) background features, and (IV) features of Gaussians from other objects.
 img_carousel2: assets/img/novum/fig2.png
-description_carousel2: TODO
+description_carousel2: Figure 2. Overview of the classification inference pipeline. The NOVUM architecture is composed of a backbone and a set of neural object volumes represented as 3D Gaussians on a cuboid shape (green box). The associated feature of each 3D Gaussian
+is represented with different colors. During inference, an image is first processed by the backbone into a feature map F. The object class is predicted by independently matching the Gaussian features to the feature map (blue box). We color-code the detected Gaussians to highlight the interpretability of our method. Brightness shows the prediction confidence. Note that the model is only confident with the correct class even though the bus is an out-of-distribution sample. The 3D object pose can also be inferred via inverse rendering of the neural object volume.
 img_carousel3: assets/img/novum/fig3.png
-description_carousel3: TODO
+description_carousel3: Figure 3. (a-b) t-SNE plots comparing (a) the learned features of our approach and (b) the learned vertex features of NeMo. As can be seen, our contrastive loss allows a much clearer distribution of the space while keeping Gaussian features from different
+classes far from each other (while the low-quality clustering observed in (b) may likely originates from the ImageNet pretraining). (c-d) t-SNE plots of the mean extracted feature for each car image of the test dataset. We observe a very clear organization of the samples according to the azimuth angle for (c) our approach while this organization is completely absent in (d) other feed-forward baselines (e.g., Resnet50).
 img_carousel4: assets/img/novum/fig4.png
-description_carousel4: TODO
+description_carousel4: Figure 4. Four qualitative results that were misclassified by ViT-b-16. We show for each (left) the input image and (right) the extracted feature map and the predicted 3D pose overlaid. A smooth color gradient shows a high quality matching. In the extracted features, the brightness illustrates the confidence of the matching with the Gaussian features.
 youtube_link: https://www.youtube.com/embed/JkaxUblCGz0
 bibtex: BibTex Code Here
 ---

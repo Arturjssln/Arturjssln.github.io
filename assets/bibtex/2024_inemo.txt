@@ -1,0 +1,7 @@
+@inproceedings{fischer24inemo,
+	author  = {Tom Fischer and Yaoyao Liu and Artur Jesslen and Noor Ahmed and Prakhar Kaushik and Angtian Wang and Alan Yuille and Adam Kortylewski and Eddy Ilg},
+	title   = {iNeMo: Incremental Neural Mesh Models for Robust Class-Incremental Learning},
+	booktitle = {ECCV},
+	year    = {2024}
+}			
+	

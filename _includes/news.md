@@ -1,15 +1,6 @@
 ## News
 
 <table style="width:100%;border-spacing:0px;border-collapse:collapse;margin-right:auto;margin-left:auto;"><tbody>
-	
-	<!--<tr>
-		<td style="border: none; vertical-align:top">
-		  <strong>[Jul, 2024]</strong> 
-		</td>
-		<td style="border: none;">
-			Two papers accepted to <strong>ECCV 2024</strong>!
-		</td>
-	</tr>-->
 	<!--<tr>
 		<td style="border: none; vertical-align:top">
 		  <strong>[Sep, 2024]</strong> 
@@ -26,6 +17,14 @@
 			One paper accepted to <strong>IJCV</strong>!
 		</td>
 	</tr>-->
+	<tr>
+		<td style="border: none; vertical-align:top">
+		  <strong>[Jul, 2024]</strong> 
+		</td>
+		<td style="border: none;">
+			Two papers accepted to <strong>ECCV 2024</strong>!
+		</td>
+	</tr>
 	<tr>
 		<td style="border: none; vertical-align:top">
 		  <strong>[Feb, 2024]</strong> 

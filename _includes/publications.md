@@ -26,30 +26,24 @@
 </div>
 -->
 
-<!-- NOVUM
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/teaser_nemoCls.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">ECCV 2024</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="#">NOVUM: Neural Object Volumes for Robust Object Classification</a></div>
+    <div class="title"><a href="https://artur.jesslen.ch/NOVUM">NOVUM: Neural Object Volumes for Robust Object Classification</a></div>
     <div class="author"><strong>Artur Jesslen</strong>, Guofeng Zhang, Angtian Wang, Wufei Ma, Alan Yuille, and Adam Kortylewski</div>
-    <div class="periodical"><em>ECCV<strong></strong>, 2023.</em></div>
-    !--
+    <div class="periodical"><em>ECCV<strong></strong>, 2024.</em></div>
     <div class="links">
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [coming soon]</a>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>
+      <a href="https://artur.jesslen.ch/NOVUM" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page</a>
+      <a href="assets/bibtex/2024_novum.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>
-    --
   </div>
 </div>
--->
 
-<!-- iNeMo
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/teaser_nemoCls.png" class="teaser img-fluid z-depth-1">
@@ -58,19 +52,17 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="#">iNeMo: Incremental Neural Mesh Models for Robust Class-Incremental Learning</a></div>
     <div class="author">Tom Fischer, Yaoyao Liu, <strong>Artur Jesslen</strong>, Noor Ahmed, Prakhar Kaushik, Angtian Wang, Alan Yuille, Adam Kortylewski, and Eddy Ilg</div>
-    <div class="periodical"><em>ECCV<strong></strong>, 2023.</em></div>
+    <div class="periodical"><em>ECCV<strong></strong>, 2024.</em></div>
     !--
     <div class="links">
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      <strong><i style="color:#e74d3c">Oral Presentation</i></strong>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [Coming soon]</a>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [Coming soon]</a>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page [Coming soon]</a>
+      <a href="assets/bibtex/2024_inemo.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>
-    --
   </div>
 </div>
--->
+
 
 <div class="pub-row">
 <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">

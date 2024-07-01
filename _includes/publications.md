@@ -46,14 +46,13 @@
 
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/teaser_nemoCls.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/teaser_iNeMo.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">ECCV 2024</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="#">iNeMo: Incremental Neural Mesh Models for Robust Class-Incremental Learning</a></div>
     <div class="author">Tom Fischer, Yaoyao Liu, <strong>Artur Jesslen</strong>, Noor Ahmed, Prakhar Kaushik, Angtian Wang, Alan Yuille, Adam Kortylewski, and Eddy Ilg</div>
     <div class="periodical"><em>ECCV<strong></strong>, 2024.</em></div>
-    !--
     <div class="links">
       <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [Coming soon]</a>
       <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [Coming soon]</a>
@@ -62,7 +61,6 @@
     </div>
   </div>
 </div>
-
 
 <div class="pub-row">
 <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">

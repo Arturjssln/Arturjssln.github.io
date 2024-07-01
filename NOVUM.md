@@ -14,7 +14,13 @@ description_carousel3: Figure 3. Interpretability
 img_carousel4: assets/img/novum/fig4.png
 description_carousel4: Figure 4. Qualitative results that were misclassified by ViT-b-16.
 youtube_link: https://www.youtube.com/embed/JkaxUblCGz0
-bibtex: BibTex Code Here
+bibtex: "@inproceedings{jesslen24novum,
+	author  = {Artur Jesslen and Guofeng Zhang and Angtian Wang and Wufei Ma and Alan Yuille and Adam Kortylewski},
+	title   = {NOVUM: Neural Object Volumes for Robust Object Classification},
+	booktitle = {ECCV},
+	year    = {2024}
+}"		
+
 ---
 
 [Artur Jesslen](https://artur.jesslen.ch)<sup>1\*</sup>, [Guofeng Zhang](https://openreview.net/profile?id=~Guofeng_Zhang4)<sup>2\*</sup>, [Angtian Wang](https://angtianwang.github.io)<sup>2</sup>, [Wufei Ma](https://wufeim.github.io)<sup>2</sup>, [Alan Yuille](https://www.cs.jhu.edu/~ayuille/)<sup>2</sup>, and [Adam Kortylewski](https://gvrl.mpi-inf.mpg.de)<sup>1,3</sup>

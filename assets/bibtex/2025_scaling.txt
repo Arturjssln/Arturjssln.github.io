@@ -1,0 +1,6 @@
+@inproceedings{dunkel25cns,
+	author  = {Xiaoding Yuan and Artur Jesslen and Prakhar Kaushik and Guofeng Zhang and Adam Kortylewski and Alan Yuille},
+	title   = {Scaling 3D Compositional Models for Robust Classification and Pose Estimation},
+	booktitle = {ICCV},
+	year    = {2025}
+}

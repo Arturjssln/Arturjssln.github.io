@@ -28,6 +28,42 @@
 
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/teaser_cns.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ICCV 2025</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="#">CNS-Bench: Benchmarking Image Classifier Robustness Under Continuous Nuisance Shifts</a></div>
+    <div class="author">Olaf Dünkel,<strong>Artur Jesslen</strong>, Jiahao Xie, Christian Theobalt, Christian Rupprecht, and Adam Kortylewski</div>
+    <div class="periodical"><em>ICCV<strong></strong>, 2025.</em></div>
+    <div class="links">
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [coming soon]</a>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page  [coming soon]</a>
+      <a href="assets/bibtex/2025_cns.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/teaser_teaser_scaling.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ICCV 2025</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="#">Scaling 3D Compositional Models for Robust Classification and Pose Estimation</a></div>
+    <div class="author">Xiaoding Yuan, <strong>Artur Jesslen</strong>, Prakhar Kaushik, Guofeng Zhang, Adam Kortylewski and Alan Yuille</div>
+    <div class="periodical"><em>ICCV<strong></strong>, 2025.</em></div>
+    <div class="links">
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [coming soon]</a>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page [coming soon]</a>
+      <a href="assets/bibtex/2025_scaling.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/teaser_nemoCls.png" class="teaser img-fluid z-depth-1">
     <abbr class="badge">ECCV 2024</abbr>
   </div>
@@ -36,8 +72,8 @@
     <div class="author"><strong>Artur Jesslen</strong>, Guofeng Zhang, Angtian Wang, Wufei Ma, Alan Yuille, and Adam Kortylewski</div>
     <div class="periodical"><em>ECCV<strong></strong>, 2024.</em></div>
     <div class="links">
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [coming soon]</a>
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>
+      <a href="https://arxiv.org/pdf/2305.14668" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/GenIntel/NOVUM" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <a href="https://artur.jesslen.ch/NOVUM" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page</a>
       <a href="assets/bibtex/2024_novum.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>
@@ -54,9 +90,8 @@
     <div class="author">Tom Fischer, Yaoyao Liu, <strong>Artur Jesslen</strong>, Noor Ahmed, Prakhar Kaushik, Angtian Wang, Alan Yuille, Adam Kortylewski, and Eddy Ilg</div>
     <div class="periodical"><em>ECCV<strong></strong>, 2024.</em></div>
     <div class="links">
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [Coming soon]</a>
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [Coming soon]</a>
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page [Coming soon]</a>
+      <a href="https://arxiv.org/pdf/2407.09271" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/Fischer-Tom/iNeMo" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
       <a href="assets/bibtex/2024_inemo.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>
   </div>

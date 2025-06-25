@@ -1,0 +1,6 @@
+@inproceedings{dunkel25cns,
+	author  = {Olaf Dünkel and Artur Jesslen and Jiahao Xie and Christian Theobalt and Christian Rupprecht and Adam Kortylewski},
+	title   = {CNS-Bench: Benchmarking Image Classifier Robustness Under Continuous Nuisance Shifts},
+	booktitle = {ICCV},
+	year    = {2025}
+}

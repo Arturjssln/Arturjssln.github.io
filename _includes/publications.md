@@ -25,7 +25,25 @@
   </div>
 </div>
 -->
-
+<!--
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/TODO.png" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">ICLR 2026</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="#">Escaping Plato's Cave: Robust Conceptual Reasoning through Interpretable 3D Neural Object Volumes</a></div>
+    <div class="author">Nhi Pham, <strong>Artur Jesslen</strong>, Bernt Schiele, Adam Kortylewski, and Jonas Fischer</div>
+    <div class="periodical"><em><strong>International Conference on Learning Representations (ICLR)</strong>, 2026.</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2503.13429" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page  [coming soon]</a>
+      <a href="assets/bibtex/2026_plato_cave.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+    </div>
+  </div>
+</div>
+-->
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/teaser_cns.png" class="teaser img-fluid z-depth-1">

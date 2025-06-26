@@ -1,0 +1,9 @@
+@misc{pham2025escapingplatoscaverobust,
+      title={Escaping Plato's Cave: Robust Conceptual Reasoning through Interpretable 3D Neural Object Volumes}, 
+      author={Nhi Pham and Artur Jesslen and Bernt Schiele and Adam Kortylewski and Jonas Fischer},
+      year={2025},
+      eprint={2503.13429},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.13429}, 
+}

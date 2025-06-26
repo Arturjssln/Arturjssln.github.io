@@ -33,8 +33,8 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="#">CNS-Bench: Benchmarking Image Classifier Robustness Under Continuous Nuisance Shifts</a></div>
-    <div class="author">Olaf Dünkel,<strong>Artur Jesslen</strong>, Jiahao Xie, Christian Theobalt, Christian Rupprecht, and Adam Kortylewski</div>
-    <div class="periodical"><em>ICCV<strong></strong>, 2025.</em></div>
+    <div class="author">Olaf Dünkel, <strong>Artur Jesslen</strong>, Jiahao Xie, Christian Theobalt, Christian Rupprecht, and Adam Kortylewski</div>
+    <div class="periodical"><em><strong>International Conference on Computer Vision (ICCV)</strong>, 2025.</em></div>
     <div class="links">
       <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [coming soon]</a>
       <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>
@@ -52,12 +52,31 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="#">Scaling 3D Compositional Models for Robust Classification and Pose Estimation</a></div>
     <div class="author">Xiaoding Yuan, <strong>Artur Jesslen</strong>, Prakhar Kaushik, Guofeng Zhang, Adam Kortylewski and Alan Yuille</div>
-    <div class="periodical"><em>ICCV<strong></strong>, 2025.</em></div>
+    <div class="periodical"><em><strong>International Conference on Computer Vision (ICCV)</strong>, 2025.</em></div>
     <div class="links">
       <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [coming soon]</a>
       <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>
       <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page [coming soon]</a>
       <a href="assets/bibtex/2025_scaling.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+    </div>
+  </div>
+</div>
+
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/teaser_ood.jpg" class="teaser img-fluid z-depth-1">
+    <abbr class="badge">TPAMI</abbr>
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://dl.acm.org/doi/abs/10.1109/TPAMI.2024.3462293">OOD‐CV‐v2: An extended Benchmark for Robustness to Out‐of‐Distribution Shifts of Individual Nuisances in Natural Images</a></div>
+    <div class="author">Bingchen Zhao, Jiahao Wang, Wufei Ma, <strong>Artur Jesslen</strong>, Siwei Yang, Shaozuo Yu, Oliver Zendel, Christian Theobalt, Alan Yuille, and Adam Kortylewski</div>
+    <div class="periodical"><em><strong>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</strong>, 2024.</em></div>
+    <div class="links">
+      <a href="https://arxiv.org/abs/2304.10266" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
+      <a href="https://dl.acm.org/doi/abs/10.1109/TPAMI.2024.3462293" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Article</a>
+      <a href="https://bzhao.me/OOD-CV/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
+      <a href="assets/bibtex/2024_oodcvv2.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      <!--<strong><i style="color:#e74d3c">Oral Presentation</i></strong>-->
     </div>
   </div>
 </div>
@@ -70,7 +89,7 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://artur.jesslen.ch/NOVUM">NOVUM: Neural Object Volumes for Robust Object Classification</a></div>
     <div class="author"><strong>Artur Jesslen</strong>, Guofeng Zhang, Angtian Wang, Wufei Ma, Alan Yuille, and Adam Kortylewski</div>
-    <div class="periodical"><em>ECCV<strong></strong>, 2024.</em></div>
+    <div class="periodical"><em><strong>European Conference on Computer Vision (ECCV)</strong>, 2024.</em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2305.14668" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/GenIntel/NOVUM" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
@@ -88,7 +107,7 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="#">iNeMo: Incremental Neural Mesh Models for Robust Class-Incremental Learning</a></div>
     <div class="author">Tom Fischer, Yaoyao Liu, <strong>Artur Jesslen</strong>, Noor Ahmed, Prakhar Kaushik, Angtian Wang, Alan Yuille, Adam Kortylewski, and Eddy Ilg</div>
-    <div class="periodical"><em>ECCV<strong></strong>, 2024.</em></div>
+    <div class="periodical"><em><strong>European Conference on Computer Vision (ECCV)</strong>, 2024.</em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2407.09271" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://github.com/Fischer-Tom/iNeMo" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
@@ -105,7 +124,7 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://generative-vision-robust-learning.github.io/uns-obj-pose3d">Unsupervised Learning of Category-Level 3D Pose from Object-Centric Videos</a></div>
     <div class="author">Leonhard Sommer, <strong>Artur Jesslen</strong>, Eddy Ilg, and Adam Kortylewski</div>
-    <div class="periodical"><em><strong>CVPR</strong>, 2024.</em></div>
+    <div class="periodical"><em><strong>Computer Vision and Pattern Recognition (CVPR)</strong>, 2024.</em></div>
     <div class="links">
       <a href="https://openaccess.thecvf.com/content/CVPR2024/papers/Sommer_Unsupervised_Learning_of_Category-Level_3D_Pose_from_Object-Centric_Videos_CVPR_2024_paper.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://openaccess.thecvf.com/content/CVPR2024/supplemental/Sommer_Unsupervised_Learning_of_CVPR_2024_supplemental.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Supplementary</a>
@@ -125,7 +144,7 @@
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="#">Animal3D: A Comprehensive Dataset of 3D Animal Pose and Shape</a></div>
     <div class="author">Jiacong Xu, Yi Zhang, Jiawei Peng, Wufei Ma, <strong>Artur Jesslen</strong>, Pengliang Ji, Qixin Hu, Jiehua Zhang, Qihao Liu, Jiahao Wang, Wei Ji, Chen Wang, Xiaoding Yuan, Prakhar Kaushik, Guofeng Zhang, Jie Liu, Yushan Xie, Yawen Cui, Alan Yuille, and Adam Kortylewski</div>
-    <div class="periodical"><em><strong>ICCV</strong>, 2023.</em></div>
+    <div class="periodical"><em><strong>International Conference on Computer Vision (ICCV)</strong>, 2023.</em></div>
     <div class="links">
       <a href="https://arxiv.org/pdf/2308.11737" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <a href="https://xujiacong.github.io/Animal3D/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
@@ -134,23 +153,6 @@
   </div>
 </div>
 
-<div class="pub-row">
-  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/teaser_ood.jpg" class="teaser img-fluid z-depth-1">
-    <abbr class="badge">Journal review</abbr>
-  </div>
-  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="#">OOD‐CV‐v2: An extended Benchmark for Robustness to Out‐of‐Distribution Shifts of Individual Nuisances in Natural Images</a></div>
-    <div class="author">Bingchen Zhao, Jiahao Wang, Wufei Ma, <strong>Artur Jesslen</strong>, Siwei Yang, Shaozuo Yu, Oliver Zendel, Christian Theobalt, Alan Yuille, and Adam Kortylewski</div>
-    <div class="periodical"><em><strong>In review</strong>, 2023.</em></div>
-    <div class="links">
-      <a href="https://arxiv.org/abs/2304.10266" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Arxiv</a>
-      <a href="https://bzhao.me/OOD-CV/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>
-      <a href="assets/bibtex/2024_oodcvv2.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
-      <!--<strong><i style="color:#e74d3c">Oral Presentation</i></strong>-->
-    </div>
-  </div>
-</div>
 </li>
 <br>
 </ol>

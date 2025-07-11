@@ -19,6 +19,14 @@
 	</tr>-->
 	<tr>
 		<td style="border: none; vertical-align:top">
+		  <strong>[Jul, 2025]</strong> 
+		</td>
+		<td style="border: none;">
+			I am glad to co-organize the <a href="#">1st Spatial Reasoning Workshop</a> at <strong>ICCV 2025</strong>.
+		</td>	
+	</tr>
+	<tr>
+		<td style="border: none; vertical-align:top">
 		  <strong>[Jun, 2025]</strong> 
 		</td>
 		<td style="border: none;">

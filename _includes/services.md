@@ -43,11 +43,15 @@
 </ul>
 
 <h4 style="margin:0 10px 0;">Workshops Organization</h4>
+<h5 style="margin:0 40px 0;"> 2025 </h5>
+<ul style="margin:0 0 20px;">
+  <li><a href="#"><autocolor>1st Spatial Reasoning Workshop</autocolor></a>, <strong>ICCV 2025</strong></li>
+</ul>
 <h5 style="margin:0 40px 0;"> 2024 </h5>
 <ul style="margin:0 0 20px;">
-  <li><a href="http://www.ood-cv.org"><autocolor>3rd Workshop for Out-of-Distribution Generalization in Computer Vision Foundation Models</autocolor></a></li>
+  <li><a href="http://www.ood-cv.org"><autocolor>3rd Workshop for Out-of-Distribution Generalization in Computer Vision Foundation Models</autocolor></a>, <strong>ECCV 2024</strong></li>
 </ul>
 <h5 style="margin:0 40px 0;"> 2023 </h5>
 <ul style="margin:0 0 20px;">
-  <li><a href="http://www.ood-cv.org"><autocolor>2nd Workshop and Challenges for Out-of-Distribution Generalization in Computer Vision</autocolor></a></li>
+  <li><a href="http://www.ood-cv.org"><autocolor>2nd Workshop and Challenges for Out-of-Distribution Generalization in Computer Vision</autocolor></a>, <strong>ICCV 2023</strong></li>
 </ul>

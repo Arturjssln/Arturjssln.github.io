@@ -28,11 +28,31 @@
 
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/teaser_plato.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/img/teaser_2026canocs.jpeg" class="teaser img-fluid z-depth-1">
     <!--<abbr class="badge">ICLR 2026</abbr>-->
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://arxiv.org/abs/2503.13429">Escaping Plato's Cave: Robust Conceptual Reasoning through Interpretable 3D Neural Object Volumes</a></div>
+    <div class="title"><a href="#">CaNOCS: Category-Level 3D Correspondence from a single image</a></div>
+    <div class="author">Sommer Leonhard, <strong>Artur Jesslen</strong>, Basavaraj Sunagad, and Adam Kortylewski</div>
+    <div class="periodical"><em>OpenReview, 2025.</em></div>
+    <!--<div class="periodical"><em><strong>International Conference on Learning Representations (ICLR)</strong>, 2026.</em></div>-->
+    <div class="links">
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>-->
+      <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page  [coming soon]</a>-->
+      <a href="assets/bibtex/2026_canocs.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+    </div>
+  </div>
+</div>
+
+
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/teaser_2026cave.jpeg" class="teaser img-fluid z-depth-1">
+    <!--<abbr class="badge">ICLR 2026</abbr>-->
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2503.13429">Interpretable 3D Neural Object Volumes for Robust Conceptual Reasoning</a></div>
     <div class="author">Nhi Pham, <strong>Artur Jesslen</strong>, Bernt Schiele, Adam Kortylewski, and Jonas Fischer</div>
     <div class="periodical"><em>Arxiv, 2025.</em></div>
     <!--<div class="periodical"><em><strong>International Conference on Learning Representations (ICLR)</strong>, 2026.</em></div>-->
@@ -40,7 +60,7 @@
       <a href="https://arxiv.org/abs/2503.13429" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>-->
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page  [coming soon]</a>-->
-      <a href="assets/bibtex/2026_plato_cave.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      <a href="assets/bibtex/2026_cave.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>
   </div>
 </div>
@@ -70,7 +90,7 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="#">Scaling 3D Compositional Models for Robust Classification and Pose Estimation</a></div>
-    <div class="author">Xiaoding Yuan, <strong>Artur Jesslen</strong>, Prakhar Kaushik, Guofeng Zhang, Adam Kortylewski and Alan Yuille</div>
+    <div class="author">Xiaoding Yuan, Prakhar Kaushik, Guofeng Zhang, <strong>Artur Jesslen</strong>, Adam Kortylewski and Alan Yuille</div>
     <div class="periodical"><em><strong>International Conference on Computer Vision (ICCV)</strong>, 2025.</em></div>
     <div class="links">
       <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [coming soon]</a>

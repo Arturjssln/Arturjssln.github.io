@@ -1,0 +1,8 @@
+@misc{sommer2026canocs,
+      title={CaNOCS: Category-Level 3D Correspondence from a single image}, 
+      author={Sommer Leonhard and Artur Jesslen and Basavaraj Sunagad and Adam Kortylewski},
+      archivePrefix={OpenReview},
+      url={Coming soon}, 
+      year={2025},
+
+}

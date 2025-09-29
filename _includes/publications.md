@@ -33,7 +33,7 @@
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="#">CaNOCS: Category-Level 3D Correspondence from a single image</a></div>
-    <div class="author">Sommer Leonhard, <strong>Artur Jesslen</strong>, Basavaraj Sunagad, and Adam Kortylewski</div>
+    <div class="author"><strong>Artur Jesslen</strong>, Sommer Leonhard, Basavaraj Sunagad, and Adam Kortylewski</div>
     <div class="periodical"><em>OpenReview, 2025.</em></div>
     <!--<div class="periodical"><em><strong>International Conference on Learning Representations (ICLR)</strong>, 2026.</em></div>-->
     <div class="links">

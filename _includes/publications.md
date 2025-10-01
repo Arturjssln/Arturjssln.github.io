@@ -57,7 +57,7 @@
     <div class="periodical"><em>Arxiv, 2025.</em></div>
     <!--<div class="periodical"><em><strong>International Conference on Learning Representations (ICLR)</strong>, 2026.</em></div>-->
     <div class="links">
-      <a href="https://arxiv.org/abs/2503.13429" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://arxiv.org/abs/2503.13429" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [coming soon]</a>
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>-->
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page  [coming soon]</a>-->
       <a href="assets/bibtex/2026_cave.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
@@ -71,13 +71,14 @@
     <abbr class="badge">ICCV 2025</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="#">CNS-Bench: Benchmarking Image Classifier Robustness Under Continuous Nuisance Shifts</a></div>
+    <div class="title"><a href="https://arxiv.org/pdf/2507.17651">CNS-Bench: Benchmarking Image Classifier Robustness Under Continuous Nuisance Shifts</a></div>
     <div class="author">Olaf Dünkel, <strong>Artur Jesslen</strong>, Jiahao Xie, Christian Theobalt, Christian Rupprecht, and Adam Kortylewski</div>
     <div class="periodical"><em><strong>International Conference on Computer Vision (ICCV)</strong>, 2025.</em></div>
     <div class="links">
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [coming soon]</a>
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page  [coming soon]</a>
+      <a href="https://arxiv.org/pdf/2507.17651" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/odunkel/CNS-Bench" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      <a href="https://edmond.mpg.de/dataset.xhtml?persistentId=doi:10.17617/3.MAGNKP" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Data</a>
+      <a href="https://genintel.github.io/CNS" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page</a>
       <a href="assets/bibtex/2025_cns.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>
   </div>

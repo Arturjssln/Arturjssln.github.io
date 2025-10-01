@@ -37,7 +37,7 @@
     <div class="periodical"><em>OpenReview, 2025.</em></div>
     <!--<div class="periodical"><em><strong>International Conference on Learning Representations (ICLR)</strong>, 2026.</em></div>-->
     <div class="links">
-      <a href="assets/files/2025_ICCV_Scaling.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="assets/files/2025_CaNOCS.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>-->
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page  [coming soon]</a>-->
       <a href="assets/bibtex/2026_canocs.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
@@ -94,9 +94,9 @@
     <div class="author">Xiaoding Yuan, Prakhar Kaushik, Guofeng Zhang, <strong>Artur Jesslen</strong>, Adam Kortylewski and Alan Yuille</div>
     <div class="periodical"><em><strong>International Conference on Computer Vision (ICCV)</strong>, 2025.</em></div>
     <div class="links">
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [coming soon]</a>
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page [coming soon]</a>
+      <a href="assets/files/2025_ICCV_Scaling.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>-->
+      <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page [coming soon]</a>-->
       <a href="assets/bibtex/2025_scaling.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>
   </div>

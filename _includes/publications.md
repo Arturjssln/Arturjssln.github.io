@@ -37,7 +37,7 @@
     <div class="periodical"><em>OpenReview, 2025.</em></div>
     <!--<div class="periodical"><em><strong>International Conference on Learning Representations (ICLR)</strong>, 2026.</em></div>-->
     <div class="links">
-      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [coming soon]</a>
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>-->
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page  [coming soon]</a>-->
       <a href="assets/bibtex/2026_canocs.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
@@ -57,7 +57,7 @@
     <div class="periodical"><em>Arxiv, 2025.</em></div>
     <!--<div class="periodical"><em><strong>International Conference on Learning Representations (ICLR)</strong>, 2026.</em></div>-->
     <div class="links">
-      <a href="https://arxiv.org/abs/2503.13429" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF [coming soon]</a>
+      <a href="https://arxiv.org/abs/2503.13429" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>-->
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page  [coming soon]</a>-->
       <a href="assets/bibtex/2026_cave.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>

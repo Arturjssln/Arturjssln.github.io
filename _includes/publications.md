@@ -28,19 +28,19 @@
 
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/teaser_2026canocs.jpeg" class="teaser img-fluid z-depth-1">
-    <!--<abbr class="badge">ICLR 2026</abbr>-->
+    <img src="assets/img/teaser_2026housecorr3d.jpeg" class="teaser img-fluid z-depth-1">
+    <!--<abbr class="badge">CVPR 2026</abbr>-->
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="#">CaNOCS: Category-Level 3D Correspondence from a single image</a></div>
+    <div class="title"><a href="#">Monocular Category-Level 3D Correspondence via Morphable Priors</a></div>
     <div class="author"><strong>Artur Jesslen</strong>, Sommer Leonhard, Basavaraj Sunagad, and Adam Kortylewski</div>
     <div class="periodical"><em>OpenReview, 2025.</em></div>
-    <!--<div class="periodical"><em><strong>International Conference on Learning Representations (ICLR)</strong>, 2026.</em></div>-->
+    <!--<div class="periodical"><em><strong>Computer Vision and Pattern Recognition (CVPR)</strong>, 2026.</em></div>-->
     <div class="links">
-      <a href="assets/files/2025_CaNOCS.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="assets/files/2025_HouseCorr3D.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>-->
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page  [coming soon]</a>-->
-      <a href="assets/bibtex/2026_canocs.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+      <a href="assets/bibtex/2026_housecorr3d.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>
   </div>
 </div>

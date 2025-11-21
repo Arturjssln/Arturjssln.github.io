@@ -37,7 +37,7 @@
     <div class="periodical"><em>OpenReview, 2025.</em></div>
     <!--<div class="periodical"><em><strong>Computer Vision and Pattern Recognition (CVPR)</strong>, 2026.</em></div>-->
     <div class="links">
-      <a href="assets/files/2025_HouseCorr3D.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="assets/files/2026_HouseCorr3D.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>-->
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page  [coming soon]</a>-->
       <a href="assets/bibtex/2026_housecorr3d.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>

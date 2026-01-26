@@ -4,7 +4,8 @@
 <!--
 <h5 style="margin:0 40px 0;"> 2026 </h5>
 <ul style="margin:0 0 5px;">
-  <li><a href="http://cvpr2026.thecvf.com/"><autocolor>Conference on Computer Vision and Pattern Recognition (CVPR)</autocolor></a> - 4 papers</li>
+  <li><a href="http://iclr.cc/"><autocolor>International Conference on Learning Representations (ICLR)</autocolor></a> - 5 papers</li>
+  <li><a href="http://cvpr2026.thecvf.com/"><autocolor>Conference on Computer Vision and Pattern Recognition (CVPR)</autocolor></a> - 5 papers</li>
 </ul>-->
 
 <h5 style="margin:0 40px 0;"> 2025 </h5>

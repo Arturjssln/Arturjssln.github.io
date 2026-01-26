@@ -19,6 +19,14 @@
 	</tr>-->
 	<tr>
 		<td style="border: none; vertical-align:top">
+		  <strong>[Jan, 2026]</strong> 
+		</td>
+		<td style="border: none;">
+			One paper accepted to <strong>ICLR 2026</strong>!
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; vertical-align:top">
 		  <strong>[Jul, 2025]</strong> 
 		</td>
 		<td style="border: none;">

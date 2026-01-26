@@ -49,13 +49,12 @@
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/teaser_2026cave.jpeg" class="teaser img-fluid z-depth-1">
-    <!--<abbr class="badge">ICLR 2026</abbr>-->
+    <abbr class="badge">ICLR 2026</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
     <div class="title"><a href="https://arxiv.org/abs/2503.13429">Interpretable 3D Neural Object Volumes for Robust Conceptual Reasoning</a></div>
     <div class="author">Nhi Pham, <strong>Artur Jesslen</strong>, Bernt Schiele, Adam Kortylewski, and Jonas Fischer</div>
-    <div class="periodical"><em>Arxiv, 2025.</em></div>
-    <!--<div class="periodical"><em><strong>International Conference on Learning Representations (ICLR)</strong>, 2026.</em></div>-->
+    <div class="periodical"><em><strong>International Conference on Learning Representations (ICLR)</strong>, 2026.</em></div>
     <div class="links">
       <a href="https://arxiv.org/abs/2503.13429" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>-->

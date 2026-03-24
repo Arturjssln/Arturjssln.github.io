@@ -82,6 +82,13 @@
         </div>
         <br>
 
+        <nav class="page-nav">
+          <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="nav-active"{% endif %}>Research</a>
+          &nbsp;·&nbsp;
+          <a href="{{ '/personal-projects' | relative_url }}"{% if page.url contains 'personal-projects' %} class="nav-active"{% endif %}>Personal Projects</a>
+        </nav>
+        <br>
+
       </header>
       <section>
 

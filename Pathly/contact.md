@@ -2,7 +2,7 @@
 
 **Last updated: March 17, 2026**
 
-If you have questions, feedback, or need help with Mapy, the fastest way to reach me is by email.
+If you have questions, feedback, or need help with Pathly, the fastest way to reach me is by email.
 
 ## Email
 
@@ -10,7 +10,7 @@ If you have questions, feedback, or need help with Mapy, the fastest way to reac
 
 Please include:
 - Your device model and iOS version
-- Mapy app version
+- Pathly app version
 - A short description of the issue
 - Screenshots if relevant
 

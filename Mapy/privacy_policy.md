@@ -4,9 +4,9 @@
 
 ## Overview
 
-Mapy is a personal activity visualization app. This policy explains what data is accessed, how it is used, and your rights regarding that data.
+Pathly is a personal activity visualization app. This policy explains what data is accessed, how it is used, and your rights regarding that data.
 
-**Short version:** All your data stays on your device. Mapy does not collect, transmit, or sell any personal information.
+**Short version:** All your data stays on your device. Pathly does not collect, transmit, or sell any personal information.
 
 ---
 
@@ -16,7 +16,7 @@ Mapy is a personal activity visualization app. This policy explains what data is
 - **What:** Workout routes and activity data (type, date, distance).
 - **How it's used:** To display your activities on the map inside the app.
 - **Where it stays:** On your device. This data is never sent to any server.
-- **Your control:** You can revoke Health access at any time in *Settings → Privacy & Security → Health → Mapy*.
+- **Your control:** You can revoke Health access at any time in *Settings → Privacy & Security → Health → Pathly*.
 
 ### 2. Strava
 - **What:** Workout activities and GPS routes from your Strava account, accessed via OAuth 2.0.
@@ -33,7 +33,7 @@ Mapy is a personal activity visualization app. This policy explains what data is
 
 ## Data Storage
 
-All activity data is stored locally on your device using CoreData. Nothing is uploaded to external servers, cloud services, or third parties by Mapy itself.
+All activity data is stored locally on your device using CoreData. Nothing is uploaded to external servers, cloud services, or third parties by Pathly itself.
 
 ---
 
@@ -44,19 +44,19 @@ All activity data is stored locally on your device using CoreData. Nothing is up
 | Strava | Activity import | [strava.com/legal/privacy](https ://www.strava.com/legal/privacy) |
 | Apple HealthKit | Activity import | [apple.com/legal/privacy](https://www.apple.com/legal/privacy/) |
 
-Mapy does not use any analytics SDKs, advertising networks, or crash reporting services.
+Pathly does not use any analytics SDKs, advertising networks, or crash reporting services.
 
 ---
 
 ## Data Sharing
 
-Mapy does **not** share, sell, or transmit your data to any third party. No data leaves your device except for the OAuth requests made directly to Strava's API on your behalf.
+Pathly does **not** share, sell, or transmit your data to any third party. No data leaves your device except for the OAuth requests made directly to Strava's API on your behalf.
 
 ---
 
 ## Children's Privacy
 
-Mapy does not knowingly collect any data from children under 13.
+Pathly does not knowingly collect any data from children under 13.
 
 ---
 

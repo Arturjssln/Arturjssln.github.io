@@ -32,4 +32,5 @@ Apps and side projects I build outside of my academic research.
 <div class="app-screenshots">
   <img src="./assets/personal/pathly/screenshot.png" alt="Pathly screenshot 1" class="app-screenshot">
   <img src="./assets/personal/pathly/screenshot-2.png" alt="Pathly screenshot 2" class="app-screenshot">
+  <img src="./assets/personal/pathly/screenshot-3.png" alt="Pathly screenshot 3" class="app-screenshot">
 </div>

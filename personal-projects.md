@@ -4,28 +4,32 @@ layout: homepage
 
 ## Personal Projects
 
-This page showcases apps and personal projects I build outside of my academic research.
+Apps and side projects I build outside of my academic research.
 
 <br>
 
 <div class="app-card">
-  <div class="app-icon-wrap">
-    <i class="fas fa-mobile-alt"></i>
-  </div>
+  <img src="./assets/personal/pathly/pathly_icon.png" alt="Pathly icon" class="app-icon-img">
   <div class="app-details">
-    <h3 class="app-name">App Name</h3>
+    <h3 class="app-name">Pathly</h3>
     <p class="app-description">
-      A short description of what the app does, who it is for, and what makes it useful or unique.
-      Update this section with your actual app description.
+      Pathly is a maps app that lets you explore and navigate with ease.
+      <!--  ↑ Update this with the real description  -->
     </p>
     <div class="app-tags">
       <span class="app-tag">iOS</span>
-      <span class="app-tag">Productivity</span>
+      <span class="app-tag">Maps</span>
+      <span class="app-tag">Navigation</span>
     </div>
     <div class="app-links">
-      <a href="#" class="app-store-badge">
+      <a href="https://apps.apple.com/app/pathly-maps/id6747246128" class="app-store-badge" target="_blank" rel="noopener">
         <i class="fab fa-app-store-ios"></i>&nbsp; Download on the App Store
       </a>
     </div>
   </div>
+</div>
+
+<div class="app-screenshots">
+  <img src="./assets/personal/pathly/screenshot.png" alt="Pathly screenshot 1" class="app-screenshot">
+  <img src="./assets/personal/pathly/screenshot-2.png" alt="Pathly screenshot 2" class="app-screenshot">
 </div>

@@ -666,6 +666,34 @@ footer {
   color: #fff;
 }
 
+.app-icon-img {
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  border-radius: 18px;
+  object-fit: cover;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.app-screenshots {
+  display: flex;
+  gap: 16px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+}
+
+.app-screenshot {
+  height: 320px;
+  width: auto;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+  object-fit: contain;
+}
+
+@media screen and (max-width: 600px) {
+  .app-screenshot { height: 220px; }
+}
+
 .app-name {
   margin: 0 0 8px;
   font-size: 1.15rem;
@@ -727,4 +755,5 @@ footer {
 @media screen and (max-width: 480px) {
   .app-card { flex-direction: column; }
   .app-icon-wrap { width: 64px; height: 64px; border-radius: 14px; font-size: 1.6rem; }
+  .app-icon-img { width: 64px; height: 64px; border-radius: 14px; }
 }

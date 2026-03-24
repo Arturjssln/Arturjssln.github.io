@@ -41,7 +41,7 @@ All activity data is stored locally on your device using CoreData. Nothing is up
 
 | Service | Purpose | Their Privacy Policy |
 |---|---|---|
-| Strava | Activity import | [strava.com/legal/privacy](https ://www.strava.com/legal/privacy) |
+| Strava | Activity import | [strava.com/legal/privacy](https://www.strava.com/legal/privacy) |
 | Apple HealthKit | Activity import | [apple.com/legal/privacy](https://www.apple.com/legal/privacy/) |
 
 Mapy does not use any analytics SDKs, advertising networks, or crash reporting services.

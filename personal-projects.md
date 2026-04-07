@@ -38,10 +38,7 @@ Apps and side projects I build outside of my academic research.
 <br>
 
 <div class="app-card">
-  <div class="app-icon-ribbon-wrap">
-    <img src="./assets/personal/finflux/finflux_icon.png" alt="Finflux icon" class="app-icon-img">
-    <span class="app-icon-ribbon">Beta</span>
-  </div>
+  <img src="./assets/personal/finflux/finflux_icon.png" alt="Finflux icon" class="app-icon-img">
   <div class="app-details">
     <h3 class="app-name">Finflux <span class="app-tag" style="font-size: 0.7rem; vertical-align: middle;">Beta</span></h3>
     <p class="app-description">

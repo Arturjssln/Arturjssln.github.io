@@ -675,6 +675,32 @@ footer {
   box-shadow: 0 2px 8px rgba(0,0,0,0.15);
 }
 
+.app-icon-ribbon-wrap {
+  position: relative;
+  flex-shrink: 0;
+  width: 80px;
+  height: 80px;
+  overflow: hidden;
+  border-radius: 18px;
+}
+
+.app-icon-ribbon {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
 .app-screenshots {
   display: flex;
   gap: 16px;

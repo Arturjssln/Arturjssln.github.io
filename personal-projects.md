@@ -38,9 +38,12 @@ Apps and side projects I build outside of my academic research.
 <br>
 
 <div class="app-card">
-  <img src="./assets/personal/finflux/finflux_icon.png" alt="Finflux icon" class="app-icon-img">
+  <div class="app-icon-ribbon-wrap">
+    <img src="./assets/personal/finflux/finflux_icon.png" alt="Finflux icon" class="app-icon-img">
+    <span class="app-icon-ribbon">Beta</span>
+  </div>
   <div class="app-details">
-    <h3 class="app-name">Finflux</h3>
+    <h3 class="app-name">Finflux <span class="app-tag" style="font-size: 0.7rem; vertical-align: middle;">Beta</span></h3>
     <p class="app-description">
       Your finances, under control.<br>
       Import transactions, plan budgets, and track spending across all your accounts — with smart transfer detection and auto-categorization rules.

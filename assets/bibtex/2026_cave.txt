@@ -1,7 +1,0 @@
-@inproceedings{pham2025escapingplatoscaverobust,
-      title={Interpretable 3D Neural Object Volumes for Robust Conceptual Reasoning}, 
-      author={Nhi Pham and Artur Jesslen and Bernt Schiele and Adam Kortylewski and Jonas Fischer},
-      year={2026},
-	booktitle = {ICLR},
-      url={https://openreview.net/forum?id=VSPLa2Sito}, 
-}

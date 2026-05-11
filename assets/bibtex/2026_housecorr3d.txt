@@ -1,8 +1,0 @@
-@misc{sommer2026canocs,
-      title={Monocular Category-Level 3D Correspondence via Morphable Priors}, 
-      author={Sommer Leonhard and Artur Jesslen and Basavaraj Sunagad and Adam Kortylewski},
-      archivePrefix={OpenReview},
-      url={Coming soon}, 
-      year={2025},
-
-}

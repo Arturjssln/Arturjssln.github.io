@@ -192,11 +192,12 @@
 <!-- End image carousel -->
 
 
-<!-- PDF figures -->
-{% if page.pdf_figure1 %}
+<!-- PDF / image figures -->
+{% if page.pdf_figure1 or page.img_figure1 %}
 <section class="section">
   <div class="container is-max-desktop">
     <h2 class="title is-3 has-text-centered">Method</h2>
+    {% if page.pdf_figure1 %}
     <div class="columns is-centered">
       <div class="column">
         <object data="{{ page.pdf_figure1 }}" type="application/pdf" width="100%" height="480">
@@ -207,6 +208,7 @@
         {% endif %}
       </div>
     </div>
+    {% endif %}
     {% if page.pdf_figure2 %}
     <div class="columns is-centered" style="margin-top:2rem;">
       <div class="column">
@@ -219,10 +221,30 @@
       </div>
     </div>
     {% endif %}
+    {% if page.img_figure1 %}
+    <div class="columns is-centered">
+      <div class="column">
+        <img src="{{ page.img_figure1 }}" alt="Method figure" style="width:100%;">
+        {% if page.img_figure1_caption %}
+        <p class="has-text-centered" style="margin-top:0.75rem;">{{ page.img_figure1_caption }}</p>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
+    {% if page.img_figure2 %}
+    <div class="columns is-centered" style="margin-top:2rem;">
+      <div class="column">
+        <img src="{{ page.img_figure2 }}" alt="Method figure 2" style="width:100%;">
+        {% if page.img_figure2_caption %}
+        <p class="has-text-centered" style="margin-top:0.75rem;">{{ page.img_figure2_caption }}</p>
+        {% endif %}
+      </div>
+    </div>
+    {% endif %}
   </div>
 </section>
 {% endif %}
-<!-- End PDF figures -->
+<!-- End PDF / image figures -->
 
 
 <!-- Youtube video -->

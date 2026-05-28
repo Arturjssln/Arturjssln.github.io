@@ -28,24 +28,40 @@
 
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/img/teaser_2026housecorr3d.jpeg" class="teaser img-fluid z-depth-1">
-    <!--<abbr class="badge">CVPR 2026</abbr>-->
+    <img src="assets/img/teaser_20263dsc.jpeg" class="teaser img-fluid z-depth-1">
+    <!--<abbr class="badge">ECCV 2026</abbr>-->
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="https://openreview.net/forum?id=PiF3es4g22">CaNOCS: Category-Level 3D Correspondence from a single image</a></div>
-    <div class="author"><strong>Artur Jesslen</strong><sup>*</sup>, Leonhard Sommer<sup>*</sup>, Basavaraj Sunagad, and Adam Kortylewski</div>
-    <div class="periodical"><em>OpenReview, 2025.</em></div>
-    <!--<div class="periodical"><em><strong>Computer Vision and Pattern Recognition (CVPR)</strong>, 2026.</em></div>-->
+    <div class="title"><a href="#">Geometry Matters: 3D Foundation Priors for Learning Semantic Correspondence</a></div>
+    <div class="author"><strong>Artur Jesslen</strong>, Olaf Dünkel, and Adam Kortylewski. </div>
+    <div class="periodical"><em>Arxiv, 2026.</em></div>
+    <!--<div class="periodical"><em><strong>European Conference for Computer Vision (ECCV)</strong>, 2026.</em></div>-->
     <div class="links">
-      <a href="https://openreview.net/forum?id=PiF3es4g22" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-      <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>-->
+      <a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/GenIntel/3D-SC" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>
+      <a href="https://artur.jesslen.ch/3dsc" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page  [coming soon]</a>
+      <a href="assets/bibtex/2026_3dsc.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
+    </div>
+  </div>
+</div>
+<div class="pub-row">
+  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+    <img src="assets/img/teaser_2026housecorr3d.jpeg" class="teaser img-fluid z-depth-1">
+    <!--<abbr class="badge">ECCV 2026</abbr>-->
+  </div>
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+    <div class="title"><a href="https://arxiv.org/abs/2605.28257">Category-Level 3D Correspondence in Camera Space via Morphable Object Priors</a></div>
+    <div class="author">Leonhard Sommer<sup>*</sup>, <strong>Artur Jesslen</strong><sup>*</sup>, Basavaraj Sunagad, and Adam Kortylewski. <sup>*</sup> Equal contribution.</div>
+    <div class="periodical"><em>Arxiv, 2026.</em></div>
+    <!--<div class="periodical"><em><strong>European Conference for Computer Vision (ECCV)</strong>, 2026.</em></div>-->
+    <div class="links">
+      <a href="https://arxiv.org/pdf/2605.28257" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+      <a href="https://github.com/GenIntel/HouseCorr3D" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code [coming soon]</a>
       <!--<a href="#" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project page  [coming soon]</a>-->
       <a href="assets/bibtex/2026_housecorr3d.txt" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>
     </div>
   </div>
 </div>
-
-
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
     <img src="assets/img/teaser_2026cave.jpeg" class="teaser img-fluid z-depth-1">
@@ -181,7 +197,7 @@
     <abbr class="badge">ICCV 2023</abbr>
   </div>
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-    <div class="title"><a href="#">Animal3D: A Comprehensive Dataset of 3D Animal Pose and Shape</a></div>
+    <div class="title"><a href="https://arxiv.org/abs/2308.11737v2">Animal3D: A Comprehensive Dataset of 3D Animal Pose and Shape</a></div>
     <div class="author">Jiacong Xu, Yi Zhang, Jiawei Peng, Wufei Ma, <strong>Artur Jesslen</strong>, Pengliang Ji, Qixin Hu, Jiehua Zhang, Qihao Liu, Jiahao Wang, Wei Ji, Chen Wang, Xiaoding Yuan, Prakhar Kaushik, Guofeng Zhang, Jie Liu, Yushan Xie, Yawen Cui, Alan Yuille, and Adam Kortylewski</div>
     <div class="periodical"><em><strong>International Conference on Computer Vision (ICCV)</strong>, 2023.</em></div>
     <div class="links">

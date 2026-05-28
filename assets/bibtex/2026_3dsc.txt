@@ -1,0 +1,8 @@
+@misc{jesslen20263dsc,
+      title={Category-Level 3D Correspondence in Camera Space via Morphable Object Priors}, 
+      author={Artur Jesslen and Olaf Dünkel and Adam Kortylewski},
+      year={2026},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={#}, 
+}

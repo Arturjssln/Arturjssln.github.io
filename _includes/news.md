@@ -17,6 +17,22 @@
 			One paper accepted to <strong>IJCV</strong>!
 		</td>
 	</tr>-->
+	<!--<tr>
+		<td style="border: none; vertical-align:top">
+		  <strong>[Jul, 2026]</strong> 
+		</td>
+		<td style="border: none;">
+			Two papers accepted to <strong>NeurIPS 2026</strong>!
+		</td>
+	</tr>-->
+	<tr>
+		<td style="border: none; vertical-align:top">
+		  <strong>[Jun, 2026]</strong> 
+		</td>
+		<td style="border: none;">
+			One paper accepted to <strong>ECCV 2026</strong>!
+		</td>
+	</tr>
 	<tr>
 		<td style="border: none; vertical-align:top">
 		  <strong>[Jan, 2026]</strong> 

@@ -4,5 +4,5 @@
       year={2026},
       archivePrefix={arXiv},
       primaryClass={cs.CV},
-      url={#}, 
+      url={https://arxiv.org/abs/2605.30093}, 
 }

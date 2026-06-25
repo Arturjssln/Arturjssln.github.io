@@ -35,6 +35,14 @@
 	</tr>
 	<tr>
 		<td style="border: none; vertical-align:top">
+		  <strong>[May, 2026]</strong> 
+		</td>
+		<td style="border: none;">
+			Happy to have been recognized as <strong>Outstanding Reviewer</strong> (top 5%) at <strong>CVPR 2026</strong>!
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; vertical-align:top">
 		  <strong>[Jan, 2026]</strong> 
 		</td>
 		<td style="border: none;">

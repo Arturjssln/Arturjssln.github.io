@@ -8,23 +8,31 @@
   <li><a href="http://cvpr2026.thecvf.com/"><autocolor>Conference on Computer Vision and Pattern Recognition (CVPR)</autocolor></a> - 5 papers</li>
 </ul>-->
 
+<h5 style="margin:0 40px 0;"> 2026 </h5>
+<ul style="margin:0 0 5px;">
+  <li><a href="https://iclr.cc/Conferences/2026"><autocolor>International Conference on Learning Representations (ICLR)</autocolor></a> - 5 papers</li>
+  <li><a href="https://cvpr.thecvf.com/Conferences/2026/"><autocolor>Conference on Computer Vision and Pattern Recognition (CVPR)</autocolor></a> - 4 papers -  Outstanding Reviewer!</li>
+  <li><a href="https://eccv.ecva.net/Conferences/2026"><autocolor>European Conference on Computer Vision (ECCV)</autocolor></a> - 4 papers</li>
+    <li><a href="https://neurips.cc/Conferences/2026"><autocolor>Conference on Neural Information Processing Systems (NeurIPS)</autocolor></a> - 4 papers</li>
+</ul>
+
 <h5 style="margin:0 40px 0;"> 2025 </h5>
 <ul style="margin:0 0 5px;">
-  <li><a href="https://iclr.cc"><autocolor>International Conference on Learning Representations (ICLR)</autocolor></a> - 5 papers</li>
-  <li><a href="http://cvpr2025.thecvf.com/"><autocolor>Conference on Computer Vision and Pattern Recognition (CVPR)</autocolor></a> - 4 papers</li>
-  <li><a href="https://iccv.thecvf.com"><autocolor>International Conference on Computer Vision (ICCV)</autocolor></a> - 2 papers</li>
+  <li><a href="https://iclr.cc/Conferences/2025"><autocolor>International Conference on Learning Representations (ICLR)</autocolor></a> - 5 papers</li>
+  <li><a href="https://cvpr.thecvf.com/Conferences/2025"><autocolor>Conference on Computer Vision and Pattern Recognition (CVPR)</autocolor></a> - 4 papers</li>
+  <li><a href="https://iccv.thecvf.com/Conferences/2025"><autocolor>International Conference on Computer Vision (ICCV)</autocolor></a> - 2 papers</li>
     <li><a href="https://neurips.cc/Conferences/2025"><autocolor>Conference on Neural Information Processing Systems (NeurIPS)</autocolor></a> - 1 paper</li>
 </ul>
 
 <h5 style="margin:0 40px 0;"> 2024 </h5>
 <ul style="margin:0 0 5px;">
-  <li><a href="http://cvpr2024.thecvf.com/"><autocolor>Conference on Computer Vision and Pattern Recognition (CVPR)</autocolor></a> - 5 papers</li>
+  <li><a href="https://cvpr.thecvf.com/Conferences/2024"><autocolor>Conference on Computer Vision and Pattern Recognition (CVPR)</autocolor></a> - 5 papers</li>
   <li><a href="https://generative-vision.github.io/workshop-CVPR-24/"><autocolor>Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</autocolor></a> - 2 papers</li>
-  <li><a href="https://eccv.ecva.net/"><autocolor>European Conference on Computer Vision (ECCV)</autocolor></a> - 1 paper</li>
+  <li><a href="https://eccv.ecva.net/Conferences/2024"><autocolor>European Conference on Computer Vision (ECCV)</autocolor></a> - 1 paper</li>
 </ul>
 <h5 style="margin:0 40px 0;"> 2023 </h5>
 <ul style="margin:0 0 5px;">
-  <li><a href="http://cvpr2023.thecvf.com/"><autocolor>Conference on Computer Vision and Pattern Recognition (CVPR)</autocolor></a> - 2 papers</li>
+  <li><a href="https://cvpr.thecvf.com/Conferences/2023"><autocolor>Conference on Computer Vision and Pattern Recognition (CVPR)</autocolor></a> - 2 papers</li>
   <li><a href="http://iccv2023.thecvf.com/"><autocolor>International Conference on Computer Vision (ICCV)</autocolor></a> - 4 papers</li>
   <li><a href="https://generative-vision.github.io/workshop-CVPR-23/"><autocolor>Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)</autocolor></a> - 2 papers</li>
 </ul>

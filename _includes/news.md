@@ -27,6 +27,14 @@
 	</tr>-->
 	<tr>
 		<td style="border: none; vertical-align:top">
+		  <strong>[Jul, 2026]</strong> 
+		</td>
+		<td style="border: none;">
+			Happy to have been recognized as <strong>Outstanding Reviewer</strong> (top 6%) at <strong>ECCV 2026</strong>!
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; vertical-align:top">
 		  <strong>[Jun, 2026]</strong> 
 		</td>
 		<td style="border: none;">

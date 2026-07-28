@@ -12,7 +12,7 @@
 <ul style="margin:0 0 5px;">
   <li><a href="https://iclr.cc/Conferences/2026"><autocolor>International Conference on Learning Representations (ICLR)</autocolor></a> - 5 papers</li>
   <li><a href="https://cvpr.thecvf.com/Conferences/2026/"><autocolor>Conference on Computer Vision and Pattern Recognition (CVPR)</autocolor></a> - 4 papers -  Outstanding Reviewer!</li>
-  <li><a href="https://eccv.ecva.net/Conferences/2026"><autocolor>European Conference on Computer Vision (ECCV)</autocolor></a> - 4 papers</li>
+  <li><a href="https://eccv.ecva.net/Conferences/2026"><autocolor>European Conference on Computer Vision (ECCV)</autocolor></a> - 4 papers  -  Outstanding Reviewer!</li>
     <li><a href="https://neurips.cc/Conferences/2026"><autocolor>Conference on Neural Information Processing Systems (NeurIPS)</autocolor></a> - 4 papers</li>
 </ul>
 

@@ -27,6 +27,14 @@
 	</tr>-->
 	<tr>
 		<td style="border: none; vertical-align:top">
+		  <strong>[Oct, 2026]</strong> 
+		</td>
+		<td style="border: none;">
+			Happy to have been recognized as <strong>Top Reviewer</strong> (top 8%) at <strong>NeurIPS 2026</strong>!
+		</td>
+	</tr>
+	<tr>
+		<td style="border: none; vertical-align:top">
 		  <strong>[Jul, 2026]</strong> 
 		</td>
 		<td style="border: none;">

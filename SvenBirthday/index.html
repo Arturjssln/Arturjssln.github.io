@@ -1,0 +1,236 @@
+<title>Anniversaire introuvable</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  /* Layout: one centred "error dialog" card on a soft dotted ground, cake mascot on top, countdown as the stack trace */
+  :root {
+    --bg: #fdf1f3;
+    --dots: #f6d6dd;
+    --card: #ffffff;
+    --ink: #3a2e3f;
+    --muted: #8b7a8f;
+    --pink: #ff7aa2;
+    --pink-soft: #ffe1ea;
+    --mint: #7fd6c2;
+    --code-bg: #2f2537;
+    --code-ink: #f3e8f7;
+    --code-dim: #a594ad;
+    --code-key: #ff9fbd;
+    --code-ok: #9ee8d6;
+    --font-display: "Fredoka", "Trebuchet MS", system-ui, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #221a27; --dots: #33283a; --card: #2c2232; --ink: #f5e9f3; --muted: #b6a3b9;
+      --pink: #ff8fb1; --pink-soft: #45293a; --mint: #7fd6c2;
+      --code-bg: #160f1a; --code-ink: #f3e8f7; --code-dim: #8e7c97; --code-key: #ff9fbd; --code-ok: #9ee8d6;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #221a27; --dots: #33283a; --card: #2c2232; --ink: #f5e9f3; --muted: #b6a3b9;
+    --pink: #ff8fb1; --pink-soft: #45293a; --mint: #7fd6c2;
+    --code-bg: #160f1a; --code-ink: #f3e8f7; --code-dim: #8e7c97; --code-key: #ff9fbd; --code-ok: #9ee8d6;
+    color-scheme: dark;
+  }
+
+  html, body { min-height: 100%; }
+  body {
+    background: var(--bg);
+    background-image: radial-gradient(var(--dots) 1.6px, transparent 1.6px);
+    background-size: 22px 22px;
+    color: var(--ink);
+    font-family: var(--font-display);
+    padding-inline: 16px;
+    padding-block: 40px 56px;
+    display: flex; justify-content: center;
+  }
+  .wrap { width: 100%; max-width: 560px; display: flex; flex-direction: column; align-items: center; gap: 20px; }
+
+  .mascot { width: 150px; height: auto; max-width: 100%; }
+  .mascot .body { animation: wobble 3.2s ease-in-out infinite; transform-origin: 75px 130px; }
+  .mascot .tear { animation: drip 2.4s ease-in infinite; }
+  @keyframes wobble { 0%,100% { transform: rotate(-3deg); } 50% { transform: rotate(3deg); } }
+  @keyframes drip { 0%,40% { opacity: 0; transform: translateY(0); } 50% { opacity: 1; } 100% { opacity: 0; transform: translateY(14px); } }
+
+  .card {
+    width: 100%;
+    background: var(--card);
+    border-radius: 22px;
+    box-shadow: 0 2px 0 var(--dots), 0 18px 40px -18px rgba(120, 40, 70, .25);
+    overflow: hidden;
+  }
+  .titlebar {
+    display: flex; align-items: center; gap: 8px;
+    padding: 12px 16px; background: var(--pink-soft);
+    font-family: var(--font-mono); font-size: 12px; color: var(--muted);
+  }
+  .titlebar i { width: 11px; height: 11px; border-radius: 50%; display: inline-block; background: var(--pink); opacity: .9; }
+  .titlebar i:nth-child(2) { background: #ffc66e; }
+  .titlebar i:nth-child(3) { background: var(--mint); }
+  .titlebar span { margin-left: 6px; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+  .content { padding: 28px 26px 26px; display: flex; flex-direction: column; gap: 18px; text-align: center; }
+  .oops { font-size: 15px; color: var(--muted); font-weight: 500; }
+  h1 { margin: 0; font-size: clamp(56px, 16vw, 92px); line-height: .95; font-weight: 700; letter-spacing: -0.02em; color: var(--pink); }
+  h1 small { display: block; font-size: 22px; letter-spacing: 0.18em; color: var(--ink); font-weight: 600; margin-top: 6px; }
+  .reason { font-size: 17px; line-height: 1.5; margin: 0 auto; max-width: 40ch; text-wrap: balance; }
+  .reason b { color: var(--pink); font-weight: 600; }
+
+  .console {
+    background: var(--code-bg); color: var(--code-ink);
+    font-family: var(--font-mono); font-size: 13px; line-height: 1.7;
+    border-radius: 14px; padding: 16px 18px; text-align: left;
+    overflow-x: auto;
+  }
+  .console .k { color: var(--code-key); }
+  .console .d { color: var(--code-dim); }
+  .console .ok { color: var(--code-ok); }
+
+  .countdown { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+  .unit {
+    background: var(--pink-soft); border-radius: 14px; padding: 12px 4px 10px;
+    display: flex; flex-direction: column; align-items: center; gap: 2px;
+  }
+  .unit b { font-family: var(--font-mono); font-weight: 500; font-size: clamp(24px, 7vw, 34px); font-variant-numeric: tabular-nums; color: var(--ink); }
+  .unit span { font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+  .retry-label { font-size: 13px; color: var(--muted); letter-spacing: 0.06em; }
+
+  .actions { display: flex; flex-wrap: wrap; gap: 10px; justify-content: center; }
+  button {
+    font-family: var(--font-display); font-size: 15px; font-weight: 600;
+    border: 0; border-radius: 999px; padding: 11px 20px; cursor: pointer;
+    background: var(--pink); color: #fff; transition: transform .15s ease;
+  }
+  button.ghost { background: transparent; color: var(--ink); box-shadow: inset 0 0 0 2px var(--dots); }
+  button:hover { transform: translateY(-2px); }
+  button:focus-visible { outline: 3px solid var(--mint); outline-offset: 2px; }
+  .toast { min-height: 1.4em; font-size: 14px; color: var(--muted); }
+  .shake { animation: shake .4s; }
+  @keyframes shake { 20%,60% { transform: translateX(-6px); } 40%,80% { transform: translateX(6px); } }
+
+  footer { font-family: var(--font-mono); font-size: 11px; color: var(--muted); text-align: center; }
+
+
+
+  /* Phone */
+  @media (max-width: 480px) {
+    body { padding-block: 24px 40px; }
+    .wrap { gap: 14px; }
+    .mascot { width: 116px; }
+    .content { padding: 22px 16px 20px; gap: 16px; }
+    .reason { font-size: 16px; }
+    .console { font-size: 10.5px; padding: 14px 12px; line-height: 1.65; }
+    .countdown { gap: 8px; }
+    .unit { padding: 10px 2px 8px; }
+    .unit span { font-size: 10px; letter-spacing: 0.08em; }
+    .retry-label { font-size: 12px; }
+    .actions button { flex: 1 1 0; padding-inline: 12px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .mascot .body, .mascot .tear, .shake { animation: none; }
+    button { transition: none; }
+  }
+</style>
+
+<main class="wrap">
+  <svg class="mascot" viewBox="0 0 150 150" role="img" aria-label="Un petit gâteau d’anniversaire triste">
+    <g class="body">
+      <!-- candle -->
+      <rect x="70" y="18" width="10" height="30" rx="3" fill="#7fd6c2"/>
+      <path class="flame notyet-flame" d="M75 4 C70 10 72 14 75 15 C78 14 80 10 75 4 Z" fill="#c9bccd" opacity=".55"/>
+      <!-- cake -->
+      <rect x="22" y="48" width="106" height="78" rx="16" fill="#ffd3df"/>
+      <path d="M22 70 Q35 82 48 70 T74 70 T100 70 T128 70 L128 62 Q128 48 114 48 L36 48 Q22 48 22 62 Z" fill="#ff7aa2"/>
+      <circle cx="40" cy="104" r="3" fill="#7fd6c2"/><circle cx="110" cy="108" r="3" fill="#ffc66e"/><circle cx="76" cy="116" r="2.5" fill="#ff7aa2"/>
+      <!-- face -->
+      <g class="face-sad">
+        <circle cx="58" cy="90" r="4.5" fill="#3a2e3f"/><circle cx="92" cy="90" r="4.5" fill="#3a2e3f"/>
+        <path d="M66 106 Q75 99 84 106" stroke="#3a2e3f" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+        <path class="tear" d="M94 97 q3 5 0 7 q-3 -2 0 -7z" fill="#8fd3ff"/>
+      </g>
+      <ellipse cx="46" cy="100" rx="6" ry="3.5" fill="#ff9fbd" opacity=".6"/>
+      <ellipse cx="104" cy="100" rx="6" ry="3.5" fill="#ff9fbd" opacity=".6"/>
+    </g>
+    <ellipse cx="75" cy="140" rx="48" ry="6" fill="#000" opacity=".06"/>
+  </svg>
+
+  <section class="card" id="card" aria-live="polite">
+    <div class="titlebar"><i></i><i></i><i></i><span id="url">https://sven.anniversaire/fete</span></div>
+
+    <div class="content notyet">
+      <div class="oops">Oups… il semblerait qu’une erreur se soit produite.</div>
+      <h1>404<small>INTROUVABLE</small></h1>
+      <p class="reason">
+        La page <b>« Anniversaire de Sven »</b> est introuvable.
+        Raison probable : la date de l’anniversaire <b>n’est pas encore arrivée</b>.
+      </p>
+
+      <div class="console" role="note">
+<span class="d">// stack trace</span><br>
+<span class="k">Error</span>: BirthdayNotYetReachedException<br>
+&nbsp;&nbsp;at <span class="k">Calendar.today()</span> <span class="d">→ too early</span><br>
+&nbsp;&nbsp;at <span class="k">Cake.lightCandles()</span> <span class="d">→ refused</span><br>
+&nbsp;&nbsp;at <span class="k">Friends.singLoudly()</span> <span class="d">→ rehearsing…</span><br>
+<span class="ok">expected</span>: Monday 12 October, 00:00
+      </div>
+
+      <div class="retry-label">NOUVELLE TENTATIVE AUTOMATIQUE DANS</div>
+      <div class="countdown" role="timer" aria-label="Temps restant avant l’anniversaire">
+        <div class="unit"><b id="d">0</b><span>jours</span></div>
+        <div class="unit"><b id="h">00</b><span>heures</span></div>
+        <div class="unit"><b id="m">00</b><span>min</span></div>
+        <div class="unit"><b id="s">00</b><span>s</span></div>
+      </div>
+
+      <div class="actions">
+        <button id="reload" type="button">Réessayer</button>
+        <button id="skip" class="ghost" type="button">Passer l’attente</button>
+      </div>
+      <div class="toast" id="toast"></div>
+    </div>
+
+  </section>
+
+  <footer id="footer">ID d’erreur : SVEN-ANNIV-1012 · Serveur : Cœur/1.0</footer>
+</main>
+
+<script>
+  // Monday 12 October 2026, 00:00 in Zurich/Colmar time (CEST, UTC+2)
+  const TARGET = new Date("2026-10-12T00:00:00+02:00").getTime();
+  const $ = (id) => document.getElementById(id);
+  const pad = (n) => String(n).padStart(2, "0");
+
+  function tick() {
+    const left = TARGET - Date.now();
+    const s = Math.max(0, Math.floor(left / 1000));
+    $("d").textContent = Math.floor(s / 86400);
+    $("h").textContent = pad(Math.floor(s / 3600) % 24);
+    $("m").textContent = pad(Math.floor(s / 60) % 60);
+    $("s").textContent = pad(s % 60);
+  }
+
+  const excuses = [
+    "Toujours introuvable. Le calendrier refuse de coopérer.",
+    "Nouvelle tentative… raté. Le gâteau est encore au four.",
+    "L’erreur persiste. As-tu essayé d’attendre ?",
+    "Requête refusée : patience.exe introuvable.",
+    "Bien essayé. Un anniversaire ne se rafraîchit pas en avance.",
+    "Toujours 404. Les bougies sont en grève jusqu’à lundi."
+  ];
+  let e = 0;
+  $("reload").addEventListener("click", () => {
+    const card = $("card");
+    card.classList.remove("shake"); void card.offsetWidth; card.classList.add("shake");
+    $("toast").textContent = excuses[e++ % excuses.length];
+  });
+  $("skip").addEventListener("click", () => {
+    $("toast").textContent = "403 INTERDIT : sauter l’attente nécessite une machine à remonter le temps.";
+  });
+
+
+  tick();
+  setInterval(tick, 1000);
+</script>
